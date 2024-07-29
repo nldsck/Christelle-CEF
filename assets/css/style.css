@@ -36,6 +36,15 @@ h1{
     text-align:center;
     color: white; 
 }
+#noir{
+    color: black;
+}
+#tbloc_1{
+    color: white;
+}
+#libloc_1{
+    color: white;
+}
 #contact{
    
     display: flex;
