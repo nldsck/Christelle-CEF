@@ -98,6 +98,7 @@ font-family: "lato",sans-serif;
     padding: 0px;
     height: auto;
     background-color: #dbc2a4;
+    text-indent: 1%;
 }
 #bloc_2 header{
 font-family: "lato",sans-serif;
@@ -106,10 +107,11 @@ font-family: "lato",sans-serif;
     padding: 0px;
     height: auto;
     background-color: #dbc2a4;
+    text-indent: 1%;
 }
 p{
 font-family: "raleway",sans-serif;
-   
+   text-align: justify;
 
     max-height: auto;
 }
