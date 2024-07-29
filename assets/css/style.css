@@ -1,0 +1,99 @@
+#bloc_cv{
+   
+    width: 1160px;
+background-color: #782221;
+  margin: auto;
+    border: solid;
+}
+#bloc_cv header{
+    color: white;
+    text-align: center;
+    width:100%;
+    padding:1px;
+
+}
+figure{
+    margin:auto;
+        width: 250px;
+        height: 250px;
+    }
+figure img{
+        height: 100%;
+      width: 100%;
+      padding: 7px;
+          object-fit: cover;
+          object-position: top bottom;
+          border-radius: 50%;
+          box-shadow: 0px 0px 10px blue;
+      }
+ img:hover {
+    cursor: zoom-in;
+}
+h1{
+    position: sticky;
+    top: 0;
+    left: 50px;
+    text-align:center;
+    color: white; 
+}
+#contact{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2c1d27;
+    color: white;
+}
+#gros_bloc{
+    display: flex;
+    flex-direction: row;
+}
+#bloc_1{
+    width:20%;
+    margin-right:2%;
+
+}
+#bloc_2{
+ 
+    width: 80%;
+    background-color: white;
+    padding:10px;
+}
+#bloc_1 header{
+
+    position: top;
+    width: 98%;
+    padding: 0px;
+    height: auto;
+    background-color: #dbc2a4;
+}
+#bloc_2 header{
+
+    position: top;
+    width: 98%;
+    padding: 0px;
+    height: auto;
+    background-color: #dbc2a4;
+}
+p{
+
+    text-align: justify;
+
+    max-height: auto;
+}
+#bloc_2 header{ border-left: solid 5px  #782221;
+}
+footer {
+  
+    background-color: #782221; 
+    height: 100px;
+}
+#petit_bloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+time{
+    align-content: center;
+}
+
