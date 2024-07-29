@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
 #bloc_cv{
    
     width: 1160px;
@@ -30,6 +39,7 @@ figure img{
     cursor: zoom-in;
 }
 h1{
+    font-family: "lato",sans-serif;
     position: sticky;
     top: 0;
     left: 50px;
@@ -37,9 +47,11 @@ h1{
     color: white; 
 }
 #noir{
+    font-family: "lato",sans-serif;
     color: black;
 }
 #tbloc_1{
+    font-family: "raleway",sans-serif;
     color: white;
 }
 #libloc_1{
@@ -69,7 +81,7 @@ h1{
     padding:10px;
 }
 #bloc_1 header{
-
+font-family: "lato",sans-serif;
     position: top;
     width: 98%;
     padding: 0px;
@@ -77,7 +89,7 @@ h1{
     background-color: #dbc2a4;
 }
 #bloc_2 header{
-
+font-family: "lato",sans-serif;
     position: top;
     width: 98%;
     padding: 0px;
@@ -85,11 +97,14 @@ h1{
     background-color: #dbc2a4;
 }
 p{
-
+font-family: "raleway",sans-serif;
     text-align: justify;
 
     max-height: auto;
 }
+#bloc_2 header:hover {background-color: #782221;  
+}
+
 #bloc_2 header{ border-left: solid 5px  #782221;
 }
 footer {
