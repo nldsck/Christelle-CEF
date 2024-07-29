@@ -46,6 +46,12 @@ h1{
     text-align:center;
     color: white; 
 }
+#tete{
+    text-align: center;
+}
+h2{
+    text-align: left;
+}
 #noir{
     font-family: "lato",sans-serif;
     color: black;
@@ -53,6 +59,7 @@ h1{
 #tbloc_1{
     font-family: "raleway",sans-serif;
     color: white;
+    text-indent: 10%;
 }
 #libloc_1{
     font-family: "raleway",sans-serif;
@@ -102,7 +109,7 @@ font-family: "lato",sans-serif;
 }
 p{
 font-family: "raleway",sans-serif;
-    text-align: justify;
+   
 
     max-height: auto;
 }
@@ -123,5 +130,14 @@ footer {
 }
 time{
     align-content: center;
+}
+#logo img {
+    height: 50px;
+    margin-top:20px ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#logo img:hover {
+    opacity: 0.5;
 }
 
